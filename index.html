@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Task Manager</h1>
+        <p>Organize your daily tasks easily</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Tasks</a>
+        <a href="#">About</a>
+    </nav>
+
+    <main>
+
+        <section class="student-info">
+            <h2>Welcome Student!</h2>
+            <p>Manage your tasks and stay organized.</p>
+        </section>
+
+        <section class="task-input">
+            <h2>Add Your Task</h2>
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter your task"
+            >
+
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+
+        <section class="tasks">
+            <h2>My Tasks</h2>
+
+            <ul id="taskList">
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Student Task Manager © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
