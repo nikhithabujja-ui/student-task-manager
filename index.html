@@ -19,7 +19,8 @@
 
     <nav>
         <a href="#">Home</a>
-        <a href="#">Tasks</a>
+        <a href="#">My Tasks</a>
+        <a href="#">Completed</a>
         <a href="#">About</a>
     </nav>
 
@@ -28,6 +29,11 @@
         <section class="student-info">
             <h2>Welcome Student!</h2>
             <p>Manage your tasks and stay organized.</p>
+
+            <div class="student-details">
+                <p><strong>Name:</strong> Student</p>
+                <p><strong>Course:</strong> B.Tech</p>
+            </div>
         </section>
 
         <section class="task-input">
@@ -45,6 +51,10 @@
         <section class="tasks">
             <h2>My Tasks</h2>
 
+            <p class="task-message">
+                Add your tasks below and manage them easily.
+            </p>
+
             <ul id="taskList">
             </ul>
         </section>
@@ -53,6 +63,7 @@
 
     <footer>
         <p>Student Task Manager © 2026</p>
+        <p>Built by our GitHub Team</p>
     </footer>
 
     <script src="script.js"></script>
