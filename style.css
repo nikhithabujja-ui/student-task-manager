@@ -60,3 +60,20 @@ section h2 {
     margin-bottom: 15px;
     color: #1e3a8a;
 }
+.student-info {
+    text-align: center;
+}
+
+.student-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.student-details p {
+    padding: 12px 18px;
+    background-color: #e8eefc;
+    border-radius: 8px;
+}
